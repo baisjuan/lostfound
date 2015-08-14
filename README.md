@@ -1,2 +1,2 @@
 # lostfound
-Put together people who lost and found things
+	Put together people who lost and found things.
