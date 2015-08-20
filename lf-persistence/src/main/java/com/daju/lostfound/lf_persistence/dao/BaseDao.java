@@ -9,6 +9,7 @@ public interface BaseDao<B extends BaseEntity> {
 	B getNewInstance();
 	List<B> getAll();
 	int getCount();
-	void save(B object);	
+	B save(B object);	
 	void delete(B object);
+	List<B> getByExample(B example);
 }
